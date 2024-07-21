@@ -1,0 +1,20 @@
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.*
+
+# Diretório do Terraform
+.terraform/
+
+# Arquivos de bloqueio de dependências do Terraform
+*.terraform.lock.hcl
+
+# Arquivos de variáveis sensíveis
+terraform.tfvars
+*.tfvars
+
+# Arquivos de configuração de override local
+terraform.override.tf
+*.override.tf
+
+# Arquivos locais que você não quer versionar
+*.local
